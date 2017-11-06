@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardBackgroundColor="@color/card_view_background"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/subject_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="4dp"
+                android:text="Android Material Design.."
+                android:textSize="@dimen/content_description"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/subject_cover"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@id/subject_title"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/blog" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subject_cover">
+
+                <Button
+                    android:id="@+id/subject_syllabus_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/color_view"
+                    android:text="@string/view"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/button_down_view" />
+
+                <Button
+                    android:id="@+id/subject_syllabus_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+
+                    android:background="@color/color_download"
+                    android:text="@string/download"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/button_down_view"
+                    android:textStyle="normal" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

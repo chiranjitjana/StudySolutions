@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0597b1</color>
+    <color name="colorPrimaryDark">#02494e</color>
+    <color name="colorAccent">#04c240</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="card_view_background">#ffffff</color>
+    <color name="link">#1E90FF</color>
+    <color name="ligtgray">#F5F9F9</color>
+    <color name="color_view">#5dbdc7</color>
+    <color name="color_download">#79c699</color>
+    <color name="white">#ffffff</color>
+    <color name="linght_pink">#FC7554</color>
+    <color name="divider_color">#70BBC6</color>
+    <color name="response">#5AB763</color>
+    <color name="request">#C96090</color>
+    <color name="response_bg">#ebf7eb</color>
+    <color name="request_bg">#FCE7F1</color>
+    <color name="simple_hr">#f1f5f5</color>
+</resources>
